@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="./images/pngegg (2).png" type="image/x-icon">
+</head>
+<body onresize="refresh()">
+
+
+        <!-- Navbar -->
+
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class=" col-7  " href="#"><img src="./images/pngegg1.png" alt="log" height="41px"></a>
+          <button class="navbar-dark navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link text-light text-hover-green" aria-current="page" href="#">Premium</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light text-hover-green" href="#">Support</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light text-hover-green">Download</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light text-hover-green">Sign Up</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light text-hover-green">Login</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <!-- hero1 -->
+
+      <div class="hero1 pt-5">
+        <div class="container-lg  ">
+            <div class="row">
+                <div id="iphone" class="col ps-5 ">
+                    <img class="iphoneimg mt-5" src="./images/iphone sl.png" alt="iphone">
+                </div>
+                <div class="col m-auto ">
+                    <h1>Play millions of songs<br>and podcasts, for free.</h1>
+                    <button  class="getBtn mb-5">Get Spotify Free</button>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      
+      
+    
+
+    <!-- hero2 -->
+
+    <div class="container">
+        <h1 class="text-center mt-5">
+            Why Spotify?
+        </h1>
+        <div class="row  ms-5">
+
+            <div class="card m-4 col-lg-3" style="width: 15rem;">
+                <img src="./images/hero2-play.png" class="card-img-top" alt="Play">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Play your favourites</h5>
+                  <p class="card-text text-center">Listen to the song that you love, and discover new music and podcasts.</p>
+                </div>
+            </div>
+
+            <div class="card m-4 col-lg-3" style="width: 15rem;">
+                <img src="./images/hero2-books.png" class="card-img-top" alt="Play">
+                <div class="card-body">
+                  <h5 class="card-title text-center ">Playlists made easy.</h5>
+                  <p class="card-text text-center">We'll help you make playlist. Or enjoy playlists made by music experts.</p>
+                </div>
+            </div>
+
+            <div class="card m-4 col-lg-3" style="width: 15rem;">
+                <img src="./images/hero2-heart.png" class="card-img-top" alt="Play">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Make it yours.</h5>
+                  <p class="card-text text-center">Tell us what you like, and we'll recommend music for you.</p>
+                </div>
+            </div>
+
+            <div class="card m-4 col-lg-3" style="width: 15rem;">
+                <img src="./images/hero2-charge.png" class="card-img-top" alt="Play">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Save mobile data.</h5>
+                  <p class="card-text text-center">To use less data when you play music, turn on Data Saver in Settings</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- hero3 -->
+
+
+    <div class=" hero3 ">
+        <h1 class="text-light ">It's Free.<br>No credit card required.</h1>
+    </div>
+
+
+
+    <!-- hero4 -->
+
+    <div class="hero4">
+        <h1><b>Got Questions?</b></h1>
+
+        <div class="hero4-container">
+            <div class="questions " onclick="showtest(1)">
+                <a class="fs-4">How do I create a Playlist?</a>
+                <img id="downarrow1" src="./images/down-arrow.png" alt="" height="21px">
+                <img id="uparrow1" class="hide" src="./images/up-arrow-png-27162.png" alt="" height="21px">
+            </div>
+            <div id="hiddentest1" class="hide">
+                <p class="fs-6 m-3">Playlists are a great way to save collections of music, either for your own listening or to share.</p>
+                <p class="fs-6 mx-3">To create one:</p>
+                <ol class="fs-6 my-4" >
+                    <li>Tap your Library.</li>
+                    <li>Tap <span >CREATE</span>.</li>
+                    <li>Give your playlist a name.</li>
+                    <li>Start adding songs (and we'll help you along).</li>
+                </ol>
+            </div>
+
+
+            <div class="questions" onclick="showtest(2)">
+                <a class="fs-4">How do I activate Data Saver mode?</a>
+                <img id="downarrow2" src="./images/down-arrow.png" alt="" height="21px">
+                <img id="uparrow2" class="hide" src="./images/up-arrow-png-27162.png" alt="" height="21px">
+            </div>
+            <div id="hiddentest2" class="hide">
+                <ol class="fs-6 my-4">
+                    <li>Tap <span >Home</span>.</li>
+                    <li>Tap <span >Settings</span>.</li>
+                    <li>Tap <span >Data Saver</span>.</li>
+                    <li>switch on Data Saver.</li>
+                </ol>
+            </div>
+
+
+            <div class="questions" onclick="showtest(3)">
+                <a class="fs-4">Is it only possible to shuffle play music?</a>
+                <img id="downarrow3"src="./images/down-arrow.png" alt="" height="21px">
+                <img id="uparrow3" class="hide" src="./images/up-arrow-png-27162.png" alt="" height="21px">
+            </div>
+            <div id="hiddentest3" class="hide">
+                <p class="fs-6 m-3">Any playlist with the shuffle icon will play on shuffle.</p>
+                <p class="fs-6 m-3 pt-3">Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
+            </div>
+
+            <div class="questions" onclick="showtest(4)">
+                <a class="fs-4">Where can I find Podcasts?</a>
+                <img id="downarrow4"src="./images/down-arrow.png" alt="" height="21px">
+                <img id="uparrow4"class="hide" src="./images/up-arrow-png-27162.png" alt="" height="21px">
+            </div>
+            <div id="hiddentest4" class="hide">
+                <p class="fs-6 m-3">Tap <span>Search</span>. Under <span>Browse All</span>, tap Podcasts.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- her05 -->
+
+    <div class="hero5">
+        <div class="container center">
+            <p class="fs-1 fw-bolder text-light">
+                Ready?Let's play.
+            </p>
+            <button  class="getBtn">Get Spotify Free</button>
+        </div>
+    </div>
+    
+
+    <footer class="py-5">
+        <div class="container row ">
+            <img src="./images/pngegg1.png"class="col-md-2 my-5" height="40px"  >
+
+            <div class="col-md-2 ms-4 me-2 my-4">
+                <p class="fs-6 pb-2 text-secondary fw-bolder">COMPANY</p>
+                <p class="fs-7 pb-1 text-light">About</p>
+                <p class="fs-7 pb-1 text-light">Jobs</p>
+                <p class="fs-7 pb-1 text-light">For the record</p>
+            </div>
+
+            <div class="col-md-2 mx-2 my-4">
+                <p class="fs-6 pb-2 text-secondary fw-bolder">COMMUNITIES</p>
+                <p class="fs-7 pb-1 text-light">For Artists</p>
+                <p class="fs-7 pb-1 text-light">Developers</p>
+                <p class="fs-7 pb-1 text-light">Advertising</p>
+                <p class="fs-7 pb-1 text-light">Investors</p>
+                <p class="fs-7 pb-1 text-light">Vendors</p>
+            </div>
+
+            <div class="col-md-2 mx-2 my-4">
+                <p class="fs-6 pb-2 text-secondary fw-bolder">USEFUL LINKS</p>
+                <p class="fs-7 pb-1 text-light">Support</p>
+                <p class="fs-7 pb-1 text-light">Web Player</p>
+                <p class="fs-7 pb-1 text-light">Free Mobile App</p>
+            </div>
+
+            <div class="col-md-2 social-links d-flex">
+                <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M0 230.126v-.793c.016 55.974.294 63.853 1.344 87.03 3.733 81.349 48.87 126.56 130.293 130.293C155.55 447.739 163.165 448 224 448H0V230.126zm229.242-189.75c55.006.014 62.368.256 85.291 1.307 60.704 2.762 89.059 31.565 91.822 91.821 1.05 22.905 1.275 30.266 1.287 85.272v10.487c-.014 55.022-.255 62.365-1.287 85.27-2.782 60.2-31.062 89.059-91.822 91.822-23.159 1.06-30.399 1.297-87.005 1.306h-7.054c-56.572-.009-63.848-.245-86.989-1.306-60.853-2.782-89.058-31.715-91.821-91.84-1.05-22.905-1.292-30.249-1.306-85.271v-8.77c.01-56.572.263-63.83 1.306-86.989 2.781-60.237 31.061-89.058 91.821-91.821 22.923-1.032 30.268-1.274 85.273-1.287h10.484zm-5.242 68.6c-63.523 0-115.024 51.501-115.024 115.024S160.477 339.043 224 339.043 339.024 287.54 339.024 224c0-63.523-51.501-115.024-115.024-115.024zm0 40.357c41.235 0 74.667 33.432 74.667 74.667 0 41.253-33.432 74.667-74.667 74.667S149.333 265.253 149.333 224c0-41.235 33.432-74.667 74.667-74.667zM343.579 77.56c-14.859 0-26.899 12.04-26.899 26.88s12.04 26.88 26.899 26.88c14.84 0 26.861-12.04 26.861-26.88s-12.021-26.88-26.861-26.88zM448 224v224H224c60.835 0 68.47-.261 92.363-1.344 81.274-3.733 126.597-48.87 130.274-130.293C447.74 292.469 448 284.835 448 224zm-1.344-92.344c-3.659-81.275-48.85-126.56-130.275-130.293C293.187.294 285.307.016 229.333 0H448v224c0-60.835-.261-68.45-1.344-92.344zM0 0h218.667c-55.973.016-63.834.294-87.011 1.344C50.306 5.077 5.096 50.214 1.363 131.637.299 154.722.019 162.62 0 217.873V0z'/%3E%3C/svg%3E" class="m-5">
+                <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM299.75 64c-22.333 0-41.375 7.875-57.125 23.625S219 122.417 219 144.75c0 6 .667 12.167 2 18.5-33-1.667-63.958-9.958-92.875-24.875S74.667 103.583 54.5 78.75c-7.333 12.5-11 26.083-11 40.75 0 13.833 3.25 26.667 9.75 38.5 6.5 11.833 15.25 21.417 26.25 28.75-12.717-.49-24.637-3.77-35.76-9.841L43 176.5v1c0 19.5 6.125 36.625 18.375 51.375s27.708 24.042 46.375 27.875a83.54 83.54 0 01-21.25 2.75c-4.667 0-9.75-.417-15.25-1.25 5.167 16.167 14.667 29.458 28.5 39.875 13.833 10.417 29.5 15.792 47 16.125-29.333 23-62.75 34.5-100.25 34.5-7.167 0-13.667-.333-19.5-1C64.5 371.917 105.833 384 151 384c28.667 0 55.583-4.542 80.75-13.625s46.667-21.25 64.5-36.5 33.208-32.792 46.125-52.625c12.917-19.833 22.542-40.542 28.875-62.125 6.333-21.583 9.5-43.208 9.5-64.875 0-4.667-.083-8.167-.25-10.5 15.833-11.5 29.333-25.417 40.5-41.75-15.5 6.667-31 10.833-46.5 12.5C392 104 403.833 89.167 410 70c-16 9.5-33.083 16-51.25 19.5-16-17-35.667-25.5-59-25.5z'/%3E%3C/svg%3E" class="m-5">
+                <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM276.877 16h-1.127c-28.833 0-51.917 8.542-69.25 25.625-17.16 16.912-25.826 40.645-25.997 71.197l-.003.928v54.5h-63.75v74h63.75V432H257V242.25h63.5l9.75-74H257V121c0-12 2.5-21 7.5-27 4.923-5.908 14.37-8.907 28.342-8.998L293.5 85h39.25V19c-13.085-1.938-31.336-2.938-54.754-2.997l-1.12-.003z'/%3E%3C/svg%3E" class="m-5">
+            </div>
+
+        </div>
+    </footer>
+
+      <span class="d-flex align-items-center justify-content-center copyright bg-black text-light">
+        ©, made with <i class="fa fa-heart heart px-2"></i> by Salu.
+      </span>
+    
+    
+    
+    <!-- JavaScript Bundle with Popper -->
+
+<script src="./test.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
